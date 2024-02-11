@@ -1252,7 +1252,7 @@ uint32_t bli_cpuid_query
      )
 {
 	*model    = MODEL_UNKNOWN;
-    *part     = 0;
+	*part     = 0;
 	*features = 0;
 
 	char* pci_str = "/proc/cpuinfo";
